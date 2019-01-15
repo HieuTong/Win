@@ -1,0 +1,18 @@
+﻿<Window x:Class="DAnCuoiKy.ChonThangThongKe"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DAnCuoiKy"
+        mc:Ignorable="d"
+        Title="ChonThangThongKe" Height="450" Width="800" Loaded="Window_Loaded">
+    <Canvas>
+        <Label Content="CHỌN THÁNG THỐNG KÊ" FontSize="20" FontWeight="Bold" Canvas.Left="272" Canvas.Top="10"
+               ></Label>
+        <Label Content="Vui lòng chọn tháng (gợi ý: chọn một ngày trong tháng đó) " FontSize="17" Canvas.Left="23" Canvas.Top="63"></Label>
+
+        <Button Content="Thống kê" Name="btnTk" Height="25" Width="70" Canvas.Left="272" Canvas.Top="190" Click="btnTk_Click"></Button>
+        <Button Content="Thoát" Name="btnExit" Height="25" Width="70" Canvas.Left="412" Canvas.Top="190" Click="btnExit_Click"></Button>
+        <DatePicker Name="monthPicker" Canvas.Left="526" Canvas.Top="69"></DatePicker>
+    </Canvas>
+</Window>

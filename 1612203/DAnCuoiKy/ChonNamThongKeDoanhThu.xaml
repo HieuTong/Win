@@ -1,0 +1,16 @@
+﻿<Window x:Class="DAnCuoiKy.ChonNamThongKeDoanhThu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DAnCuoiKy"
+        mc:Ignorable="d"
+        Title="ChonNamThongKeDoanhThu" Height="450" Width="800">
+    <Canvas>
+        <Label Content="THỐNG KÊ DOANH THU THEO NĂM" FontSize="20" Foreground="Blue" Canvas.Left="275"></Label>
+        <Label Content="Nhập năm cần thống kê:" FontSize="17" Height="35" Canvas.Left="215" Canvas.Top="78"></Label>
+        <TextBox Name="txtNamTKDT" Height="26" Width="102" HorizontalAlignment="Center" Canvas.Left="435" Canvas.Top="87">2019</TextBox>
+        <Button Content="Thống kê" Name="btnTkNam" Click="btnTkNam_Click" Canvas.Left="357" Canvas.Top="169"></Button>
+        <Button Content="Thoát" Name="btnExit" Click="btnExit_Click" Canvas.Left="448" Canvas.Top="169" ></Button>
+    </Canvas>
+</Window>

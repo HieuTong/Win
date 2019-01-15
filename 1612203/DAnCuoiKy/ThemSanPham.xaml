@@ -1,0 +1,28 @@
+﻿<Window x:Class="DAnCuoiKy.ThemSanPham"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DAnCuoiKy"
+        mc:Ignorable="d"
+        Title="ThemSanPham" Height="450" Width="800">
+    <Canvas>
+        <Label Content="THÊM SẢN PHẨM" Canvas.Left="321" Canvas.Top="32"></Label>
+        <Label Content="Mã loại sản phẩm" Canvas.Left="164" Canvas.Top="109" ></Label>
+        <Label Content="Tên sản phẩm" Canvas.Left="164" Canvas.Top="140"></Label>
+        <Label Content="Giá nhập" Canvas.Left="164" Canvas.Top="171"></Label>
+        <Label Content="Giá bán" Canvas.Left="164" Canvas.Top="202"></Label>
+        <Label Content="Số lượng" Canvas.Left="164" Canvas.Top="233"></Label>
+        <Label Content="Trạng thái" Canvas.Left="164" Canvas.Top="264"></Label>
+        <Label Content="Đường dẫn ảnh" Canvas.Left="164" Canvas.Top="290"></Label>
+        <TextBox Name="txt1" Height="25" Width="200" Canvas.Left="321" Canvas.Top="108"></TextBox>
+        <TextBox Name="txt2" Height="25" Width="200" Canvas.Left="321" Canvas.Top="138"></TextBox>
+        <TextBox Name="txt3" Height="25" Width="200" Canvas.Left="321" Canvas.Top="172"></TextBox>
+        <TextBox Name="txt4" Height="25" Width="200" Canvas.Left="321" Canvas.Top="203"></TextBox>
+        <TextBox Name="txt5" Height="25" Width="200" Canvas.Left="321" Canvas.Top="234"></TextBox>
+        <TextBox Name="txt6" Height="25" Width="200" Canvas.Left="321" Canvas.Top="265"></TextBox>
+        <TextBox Name="txt7" Height="25" Width="200" Canvas.Left="321" Canvas.Top="295"></TextBox>
+        <Button Name="btnOK" Content="Thêm" Canvas.Left="265" Canvas.Top="351" Click="btnOK_Click"></Button>
+        <Button Name="btnExit" Content="Thoát" Canvas.Left="392" Canvas.Top="351" Click="btnExit_Click"></Button>
+    </Canvas> 
+</Window>

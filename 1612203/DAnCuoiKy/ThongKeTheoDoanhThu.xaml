@@ -1,0 +1,15 @@
+﻿<Window x:Class="DAnCuoiKy.ThongKeTheoDoanhThu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DAnCuoiKy"
+        mc:Ignorable="d"
+        Title="ThongKeTheoDoanhThu" Height="450" Width="800">
+    <Canvas>
+
+        <Label Content="THỐNG KÊ THEO DOANH THU" FontSize="25" Canvas.Left="216" Canvas.Top="10"></Label>
+        <Button Content="Thời gian xác định" Name="btnTG" Click="btnTG_Click" FontSize="17" Canvas.Left="216" Canvas.Top="87"></Button>
+        <Button Content="Khoảng thời gian" Name="btnKTG" Click="btnKTG_Click" FontSize="17" Canvas.Left="415" Canvas.Top="87"></Button>
+    </Canvas>
+</Window>

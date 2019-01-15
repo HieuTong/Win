@@ -1,0 +1,15 @@
+﻿<Window x:Class="DAnCuoiKy.ThongKeTheoThoiGianXacDinh"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DAnCuoiKy"
+        mc:Ignorable="d"
+        Title="ThongKeTheoThoiGianXacDinh" Height="450" Width="800">
+    <Canvas>
+        <Label Content="THỐNG KÊ THEO THỜI GIAN XÁC ĐỊNH" FontSize="25" Canvas.Left="189" Canvas.Top="10"></Label>
+        <Button Content="Theo ngày" Name="btnNgaySanPham" Click="btnNgaySanPham_Click" Canvas.Left="211" Canvas.Top="78"></Button>
+        <Button Content="Theo tháng" Name="btnThangSP" Click="btnThangSP_Click" Canvas.Left="351" Canvas.Top="78"></Button>
+        <Button Content="Theo năm" Name="btnNamSanPham" Click="btnNamSanPham_Click" Canvas.Left="506" Canvas.Top="78"></Button>
+    </Canvas>
+</Window>
